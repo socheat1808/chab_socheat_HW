@@ -7,6 +7,9 @@ android {
     compileSdk {
         version = release(37)
     }
+    buildFeatures {
+        viewBinding = true;
+    }
 
     defaultConfig {
         applicationId = "com.example.loginscreen"
@@ -35,7 +38,10 @@ dependencies {
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
+    implementation(libs.fragment)
     implementation(libs.material)
+    implementation(libs.navigation.fragment.ktx)
+    implementation(libs.navigation.ui.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)
