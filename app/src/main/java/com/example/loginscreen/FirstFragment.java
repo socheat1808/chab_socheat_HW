@@ -33,6 +33,7 @@ public class FirstFragment extends Fragment {
                         .navigate(R.id.action_first_to_second)
         );
 
+
         // Login button
         binding.BLogin.setOnClickListener(v -> {
 

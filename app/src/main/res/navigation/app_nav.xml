@@ -23,6 +23,14 @@
         android:id="@+id/secondFragment"
         android:name="com.example.loginscreen.secondFragment"
         android:label="Second"
-        tools:layout="@layout/fragment_second" />
+        tools:layout="@layout/fragment_second" >
+
+<!--        <argument-->
+<!--            android:name="id:"-->
+<!--            app:argType="int"/>-->
+
+    </fragment>
+
+
 
 </navigation>

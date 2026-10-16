@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/BackGroudColor"
     tools:context=".FirstFragment">
+
     <ImageView
         android:id="@+id/ImgView"
         android:layout_width="100dp"
@@ -224,11 +225,5 @@
 
 
     </LinearLayout>
-
-
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

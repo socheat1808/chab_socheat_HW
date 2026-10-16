@@ -25,4 +25,5 @@ fragment = { group = "androidx.fragment", name = "fragment", version.ref = "frag
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+safe-args = {id = "androidx.navigation.safeargs", version.ref="navigationUiKtx"}
 

@@ -25,8 +25,15 @@ public class secondFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+
         binding = FragmentSecondBinding.inflate(inflater, container, false);
 
+//        if(getArguments() != null){
+//            var args =secondFragmentArgs.fromBundle(getArguments());
+//            int id = args.getId();
+//
+//            binding.tvLogin.setText("id:" + id);
+//        }
         // Login text -> go back
         binding.tvLogin.setOnClickListener(v ->
                 Navigation.findNavController(v).popBackStack()
