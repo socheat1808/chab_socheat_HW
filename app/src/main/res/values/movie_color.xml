@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_bg">#1F1D2B</color>
+    <color name="orange">#FF8700</color>
+    <color name="cyan">#12CBE0</color>
+    <color name="gray">#8E8E99</color>
+</resources>
